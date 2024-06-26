@@ -13,7 +13,3 @@ functions:
       - httpApi:
           method: GET
           path: /hello
-
-build:
-  esbuild:
-    bundle: true
