@@ -1,12 +1,23 @@
 {
   "name": "hello-world-lambda",
   "version": "1.0.0",
-  "description": "Hello World Lambda",
+  "description": "Hello World Lambda deployed with Serverless Framework",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcomoauro/hello-world-lambda.git"
+  },
+  "keywords": ["lambda", "aws", "serverless"],
+  "author": "Marco Moauro <marcomoauro@hotmail.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcomoauro/hello-world-lambda/issues"
+  },
+  "homepage": "https://github.com/marcomoauro/hello-world-lambda#readme"
 }
